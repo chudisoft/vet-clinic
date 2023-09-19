@@ -34,15 +34,15 @@ This repository includes files with plain SQL that can be used to recreate a vet
 
 # 📖 [vet-clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Project description.
 
-**[vet-clinic]** is a...
+**[vet-clinic]** is a Postgresql database project containing all the steps and codes involved in creating a database in Postgresql.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The tech stack used in this project include.
+> The tech stack used in this project includes.
 
 <details>
   <summary>PostgreSQL Database</summary>
@@ -74,7 +74,7 @@ This repository includes files with plain SQL that can be used to recreate a vet
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Install postgresql, open postgresql terminal, and run the codes.
+> Install Postgresql, open the Postgresql terminal, and run the codes.
 
 ### Prerequisites
 
@@ -136,7 +136,7 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> Collaborators of this project include:
 
 👤 **Christopher Uduekwe**
 
@@ -150,7 +150,7 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Features of this project include.
 
 - [ ] **[Join Statement]**
 
@@ -170,8 +170,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -180,7 +178,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for this __wonderful__ opportunity.
+I would like to thank Microverse for this __wonderful__ opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
