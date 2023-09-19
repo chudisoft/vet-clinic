@@ -74,7 +74,7 @@ This repository includes files with plain SQL that can be used to recreate a vet
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Install postgresql, open postgresql terminal and run the codes.
+> Install postgresql, open postgresql terminal, and run the codes.
 
 ### Prerequisites
 
@@ -192,7 +192,7 @@ I would like to thank microverse for this __wonderful__ opportunity.
 
 - **[What languages where used?]**
 
-  - [Html5, Javascript, and CSS]
+  - [SQL]
 
 - **[What git control system was used?]**
 
