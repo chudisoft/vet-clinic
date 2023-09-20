@@ -149,7 +149,9 @@ FROM animals a
 JOIN visits v ON a.id = v.animal_id
 JOIN vets vt ON v.vet_id = vt.id
 JOIN specializations sp ON vt.id = sp.vet_id AND a.species_id = sp.species_id
+JOIN species s ON sp.species_id = s.id
 WHERE vt.name = 'Maisy Smith'
 GROUP BY s.name
 ORDER BY COUNT(*) DESC
 LIMIT 1;
+
