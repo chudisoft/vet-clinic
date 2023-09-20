@@ -29,3 +29,28 @@ ALTER TABLE animals
 ADD COLUMN species_id integer REFERENCES species(id);
 ALTER TABLE animals
 ADD COLUMN owner_id integer REFERENCES owners(id);
+
+
+
+CREATE TABLE vets (
+    id serial PRIMARY KEY,
+    name varchar(255),
+    age integer,
+    date_of_graduation date
+);
+
+CREATE TABLE specializations (
+    id serial PRIMARY KEY,
+    vet_id integer REFERENCES vets(id),
+    species_id integer REFERENCES species(id),
+    UNIQUE (vet_id, species_id)
+);
+
+CREATE TABLE visits (
+    id serial PRIMARY KEY,
+    vet_id integer REFERENCES vets(id),
+    animal_id integer REFERENCES animals(id),
+    visit_date date,
+    UNIQUE (vet_id, animal_id, visit_date)
+);
+
